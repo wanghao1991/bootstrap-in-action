@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>导航</title>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- [if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif] -->
+</head>
+<body>
+
+	<div class="container">
+		<h1 class="page-header">
+			导航
+			<small> nav </small>
+		</h1>
+	
+		<a href="#login" data-toggle="modal" class="btn btn-primary">点击登录</a>
+
+		<div class="modal hide fade" id="login">
+			<div class="modal-header">
+				<a href="#" class="close" data-dismiss="modal">×</a>
+				<h4>用户登录</h4>
+			</div>
+			<div class="modal-body">
+				<form class="form-horizontal">
+					<div class="control-group">
+						<label class="control-label">用户名</label>
+						<div class="controls">
+							<input type="text">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label">密码</label>
+						<div class="controls">
+							<input type="password">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary">登录</button>
+			</div>
+		</div>
+
+		
+
+	</div>
+
+	
+	<script src="./bootstrap/js/jquery-1.7.2.min.js" ></script>
+	<script src="./bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
