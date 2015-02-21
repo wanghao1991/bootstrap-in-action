@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>折叠内容</title>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- [if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif] -->
+</head>
+<body>
+
+	<div class="container">
+		<h1 class="page-header">
+			折叠内容
+			<small> collapse </small>
+		</h1>
+		
+<!-- <button data-target="collapse" data-toggle="collapse">显示折叠内容</button> -->
+
+<div class="accoridon" id="accordion1">
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a href="#collapse" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1">显示折叠内容</a>
+		</div>		
+
+		<div class="collapse in" id="collapse">
+			<div class="accordion-inner">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nobis amet magnam adipisci itaque velit expedita eum ex inventore impedit facere aut ipsum at, nisi officia reiciendis maxime dignissimos? Placeat!
+			</div>
+		</div>
+	</div>
+
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a href="#collapse2" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1">显示折叠内容二</a>
+		</div>		
+
+		<div class="collapse" id="collapse2">
+			<div class="accordion-inner">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nobis amet magnam adipisci itaque velit expedita eum ex inventore impedit facere aut ipsum at, nisi officia reiciendis maxime dignissimos? Placeat!
+			</div>
+		</div>
+	</div>
+
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a href="#collapse3" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1">显示折叠内容三</a>
+		</div>		
+
+		<div class="collapse" id="collapse3">
+			<div class="accordion-inner">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nobis amet magnam adipisci itaque velit expedita eum ex inventore impedit facere aut ipsum at, nisi officia reiciendis maxime dignissimos? Placeat!
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+	</div>
+
+
+	<script src="./bootstrap/js/jquery-1.7.2.min.js" ></script>
+	<script src="./bootstrap/js/bootstrap.js"></script>	
+</body>
+</html>
